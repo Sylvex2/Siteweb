@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regio</title>
+    <link rel="stylesheet" href="style-cariere.css">
+    <!-- iconuri pentru fb linke-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header class="header">
+     
+        <img class="logo" src="regio.png" alt="Logo"></img>
+            <nav class="navbar">
+                <!-- responsive bar -->
+                
+                <ul class="sidebar hideonmob">
+                    <li><a href="#" onclick="hiddensidebar()"class="close-btn"><i><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></i></a></li>
+                    <li> <a href="site.html">Acasa </a></li>
+                    <li > <a href="#">Despre noi</a> </li>
+                    <li > <a href="#">Solutii si Servicii</a> </li>
+                    <li > <a href="#">Portofoliu</a>
+                        <ul> 
+                            <li> <a href="#">Proiecte Inovative</a> </li>
+                            <li> <a href="#">Constructii</a> </li>
+                            <li> <a href="#"> Intretineri</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="cariere.html">Cariere</a> </li>
+                    <li > <a href="#">Cerere/Oferta</a>
+                    <li > <a href="contact.html">Contact</a> </li>
+                </ul>
+                <!-- responsive bar -->
+                <ul>
+                    <li class="hideonmob"> <a href="site.html">Acasa </a></li>
+                    <li class="hideonmob"> <a href="#">Despre noi</a> </li>
+                    <li class="hideonmob"> <a href="#">Solutii si Servicii</a> </li>
+                    <li class="hideonmob"> <a href="#">Portofoliu</a>
+                        <ul> 
+                            <li> <a href="#">Proiecte Inovative</a> </li>
+                            <li> <a href="#">Constructii</a> </li>
+                            <li> <a href="#"> Intretineri</a> </li>
+                        </ul>
+                    </li>
+                    <li class="hideonmob"> <a href="cariere.html">Cariere</a> </li>
+                    <li class="hideonmob"> <a href="#">Cerere/Oferta</a>
+                    <li class="hideonmob"> <a href="contact.html">Contact</a> </li>
+                          
+                        
+                    
+                    <li onclick="ShowSidebar()" class="hideonweb onmob menubutton " style="background-color: none;"> <a href="#" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+        </nav>
+    </header>
+    <body>
+    <main>
+        <div class="column">
+            <section class="container">
+                <header>Contact</header>
+                <form action="#" class="form">
+                    <div class="input-box">
+                        <label>Nume</label>
+                        <input type="text" placeholder="Ex:Popescu,Ionescu" required/>
+                    </div>
+                    <div class="input-box">
+                        <label>Prenume</label>
+                        <input type="text" placeholder="Ex:Andrei,Ion" required/>
+                    </div>
+                    <div class="input-box">
+                        <label>Subiectul</label>
+                        <input type="text" placeholder="Ex:Programatori, Inginer constructii" required/>
+                    </div>
+                    <div class="column">
+                        <div class="input-box">
+                            <label>Telefon</label>
+                            <input type="text" placeholder="Ex:07********" required/>
+                        </div>
+                        <div class="input-box">
+                            <label>Email</label>
+                            <input type="email" placeholder="Ex:@gmail, @yahoo etc." required/>
+                        </div>
+                        </div>
+                        <div class="input-box1">
+                            <label>Mesaj</label>
+                            <textarea placeholder="" required></textarea>
+                        </div>
+                    
+                 
+                    <button type="submit">Trimite</button>
+                </form>
+            </section>
+            <section class="content-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.346390070377!2d26.101402075979664!3d44.4670720710752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2022e4c2c4e39%3A0x25ff9edf8ff4f806!2sRegio%20Impex!5e0!3m2!1sro!2sro!4v1721042525049!5m2!1sro!2sro" width="fit" height="fit" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h1> Strada Gradistea Florestilor Nr. 14,
+                    Sector 2, Cod postal 020313,
+                    Bucuresti, Romania
+                </h1>
+                <p> Telefon: +40 21 224.66.34 <br></br>  
+                    Fax: +40 21 202.92.85</p>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+    <footer>
+        <div class="contactInfo">
+            <p><span class="material-symbols-outlined">
+                contact_mail
+                </span> :office@regioimpex.ro</p>
+            <p ><span class="material-symbols-outlined">
+                support_agent
+                </span> : +40 21 224 6634</p>
+            <p><span class="material-symbols-outlined">
+                apartment
+                </span> :Gradistea Florestilor 14 street, Sector 2, Bucuresti 020313</p>
+        </div>
+
+      
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <button class="btn"> <a href="site.html">Acasa</a></button>
+                    <button class="btn"> <a href="#">Despre noi</a></button>
+                    <button class="btn"><a href="#">Solutii si Servicii</a></button>
+                        <button class="btn"><a href="#">Portofoliu</a></button>
+                            <button class="btn"><a href="contact.html">Contact</a></button>
+                                <button class="btn"><a href="cariere.html">Cariere</a></button>
+                             
+                </ul>
+            </div>
+    
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/regioimpex.ro/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/dan-cador-a572917"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+    
+          
+    </footer>
